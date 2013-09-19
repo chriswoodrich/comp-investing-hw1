@@ -97,7 +97,7 @@ ls_symbols = ['C', 'GS', 'IBM', 'HNZ']
 ls_allocation = [0.6, 0.1, 0.1, 0.1]
 
 max_alloc, count = best_allocation(dt_start, dt_end, ls_symbols)
-print_simulate(dt_start, dt_end, ls_symbols, max_alloc)
+print_stuff(dt_start, dt_end, ls_symbols, max_alloc)
 print "this many times:" , count
 
 
